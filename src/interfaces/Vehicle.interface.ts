@@ -6,6 +6,8 @@ export const vehicleZodSchema = z.object({
   color: z.string().min(3),
   status: z.boolean().optional(),
   buyValue: z.number().int(),
+  doorsQty: z.number().optional(),
+  seatsQty: z.number().optional(),
 });
 
 export type IVehicle = z.infer<typeof vehicleZodSchema>;
