@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { IVehicle } from './Vehicle.interface';
+import { IVehicle } from './IVehicle';
 
 export const carZodSchema = z.object({
   _id: z.string().optional(),

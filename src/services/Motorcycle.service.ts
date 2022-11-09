@@ -1,7 +1,7 @@
 import { isValidObjectId } from 'mongoose';
 import { IService } from '../interfaces/Service.interface';
-import { IModel } from '../interfaces/Model.interface';
-import { IMotorcycle, motorcycleZodSchema } from '../interfaces/Motorcycle.interface';
+import { IModel } from '../interfaces/IModel';
+import { IMotorcycle, motorcycleZodSchema } from '../interfaces/IMotorcycle ';
 import { ErrorTypes } from '../errors/catelog';
 
 class MotorcycleService implements IService<IMotorcycle> {

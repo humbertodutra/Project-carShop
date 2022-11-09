@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 import { IService } from '../interfaces/Service.interface';
-import { ICar } from '../interfaces/Car.interface';
-import { IMotorcycle } from '../interfaces/Motorcycle.interface';
+import { ICar } from '../interfaces/ICar';
+import { IMotorcycle } from '../interfaces/IMotorcycle ';
 
 export default class CarController {
   constructor(private _carService: IService<IMotorcycle>) {}

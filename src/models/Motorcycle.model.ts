@@ -1,5 +1,5 @@
 import { model as mongooseModel, Schema } from 'mongoose';
-import { IMotorcycle } from '../interfaces/Motorcycle.interface';
+import { IMotorcycle } from '../interfaces/IMotorcycle ';
 import MongoModel from './Mongo.model';
 
 const motorcycleMongooseSchema = new Schema<IMotorcycle>(

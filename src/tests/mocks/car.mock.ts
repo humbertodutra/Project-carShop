@@ -1,4 +1,4 @@
-import { ICar } from '../../interfaces/Car.interface';
+import { ICar } from '../../interfaces/ICar';
 
 const carMock:ICar = {
   doorsQty: 2,
